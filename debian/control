@@ -1,7 +1,8 @@
 Source: cpio
 Section: utils
 Priority: important
-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Uploaders: Ruben Molina <rmolina@udea.edu.co>, Chris Lamb <lamby@debian.org>
 Build-Depends: texinfo, gettext, autotools-dev, autoconf
 Build-Depends-Indep: mingw-w64

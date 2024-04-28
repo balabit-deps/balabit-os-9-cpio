@@ -10,8 +10,8 @@ fix.win32.out-pass.mode.579533.patch
 695717-no-cpio.info.patch
 fix.win32.undef.stat.patch
 fix.mt-erase.manpage.patch
-revert-CVE-2015-1197-handling.patch
 963304-remove-superfluous-declaration-of-program_name
 992045-CVE-2021-38185-rewrite-dynamic-string-support
 992098-regression-of-orig-fix-for-CVE-2021-38185
 992192-Fix-dynamic-string-reallocations.patch
+CVE-2023-7207.patch

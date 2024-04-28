@@ -1,3 +1,14 @@
+cpio (2.13+dfsg-7ubuntu0.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Path traversal vulnerability
+    - debian/patches/CVE-2023-7207.patch: Create symlink placeholder
+      if --no-absolute-filenames was given and replace placeholders
+      after extraction.
+    - debian/patches/revert-CVE-2015-1197-handling.patch: Removed.
+    - CVE-2023-7207
+
+ -- Fabian Toepfer <fabian.toepfer@canonical.com>  Sun, 28 Apr 2024 14:30:36 +0200
+
 cpio (2.13+dfsg-7) unstable; urgency=medium
 
   [ Salvatore Bonaccorso ]
