@@ -15,3 +15,6 @@ fix.mt-erase.manpage.patch
 992098-regression-of-orig-fix-for-CVE-2021-38185
 992192-Fix-dynamic-string-reallocations.patch
 CVE-2023-7207.patch
+CVE-2026-66485.patch
+CVE-2026-66484.patch
+CVE-2026-66486.patch

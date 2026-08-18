@@ -1,3 +1,21 @@
+cpio (2.13+dfsg-7ubuntu0.2) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Unbounded stack allocation
+    - debian/patches/CVE-2026-66485.patch: Minor fixes in src/makepath.c,
+      src/userspec.c.
+    - CVE-2026-66485
+  * SECURITY UPDATE: Hard link to file outside intended directory
+    - debian/patches/CVE-2026-66484.patch: The --no-absolute-filenames option
+      affects hard link targets too. in src/tar.c.
+    - CVE-2026-66484
+  * SECURITY UPDATE: Unescaped output
+    - debian/patches/CVE-2026-66486.patch: Quote file names in error messages
+      and in listings. in src/copyin.c, src/copyout.c, src/copypass.c,
+      src/main.c, tests/CVE-2019-14866.at, tests/testsuite.
+    - CVE-2026-66486
+
+ -- Isabel Garcia Contreras <isabel.garcia@canonical.com>  Tue, 18 Aug 2026 16:46:57 -0400
+
 cpio (2.13+dfsg-7ubuntu0.1) jammy-security; urgency=medium
 
   * SECURITY UPDATE: Path traversal vulnerability
